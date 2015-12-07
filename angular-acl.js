@@ -128,6 +128,13 @@ angular.module('mm.acl').provider('AclService', [
     };
 
     /**
+     * Return data
+     */
+    AclService.data = function () {
+      return data;
+    };
+
+    /**
      * Remove role from current user
      *
      * @param role
